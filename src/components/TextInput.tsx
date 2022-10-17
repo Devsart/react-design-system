@@ -32,21 +32,10 @@ export interface TextInputInputProps extends InputHTMLAttributes<HTMLInputElemen
 
 function TextInputInput(props:TextInputInputProps) {
     return ( 
-        <input className="bg-transparent flex-1 outline-none text-gray-100 text-xs placeholder:text-gray-400" {...props}/>
+        <input className="bg-gray-800 flex-1 outline-none text-gray-100 text-xs placeholder:text-gray-400" {...props}/>
 
     )
 }
-
-
-// function TextInput(props: TextInputProps) {
-//     return (
-//         <div className='py-4 px-3 rounded outline-none bg-gray-800 text-gray-100 text-xs placeholder:text-gray-400 focus:ring-2 ring-cyan-300'>
-//             <input  
-//             {...props}/>
-
-//         </div>
-//     )
-// }
 
 export const TextInput = {
     Root: TextInputRoot,
